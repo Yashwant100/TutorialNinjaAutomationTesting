@@ -13,6 +13,7 @@ public class TC_RF_002 {
 
 	@Test
 	public static void verifyRegisterAccountWithAllFields() {
+		// Program to varify registering a account by providing all mandoatory fields
 		// LAunching Browser
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

@@ -1,13 +1,15 @@
 package tutorialninja.register;
 
 import java.time.Duration;
-import java.util.Date;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import utilities.CommonUtils;
 
 public class TC_RF_001 {
     @Test
@@ -26,7 +28,7 @@ public class TC_RF_001 {
 		
 		driver.findElement(By.id("input-firstname")).sendKeys("Yashwant");
 		driver.findElement(By.id("input-lastname")).sendKeys("Saini");
-		driver.findElement(By.id("input-email")).sendKeys(generateEmailWithTimestamp());
+		driver.findElement(By.id("input-email")).sendKeys(CommonUtils.generateEmailWithTimestamp());
 		driver.findElement(By.id("input-telephone")).sendKeys("123456");
 		driver.findElement(By.id("input-password")).sendKeys("Yashwant123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Yashwant123");
@@ -45,8 +47,6 @@ public class TC_RF_001 {
 
 	}
 	
-	public static String generateEmailWithTimestamp() {
-		return new Date().toString().replaceAll("\\s","").replaceAll("\\:","")+"@gmail.com";
-	}
+	
 
 }

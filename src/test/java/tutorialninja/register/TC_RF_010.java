@@ -9,6 +9,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import utilities.CommonUtils;
+
 public class TC_RF_010 {
 	// Test case to verify register acoount by providing invalid number
 	WebDriver driver;
@@ -28,7 +30,7 @@ public class TC_RF_010 {
 
 		driver.findElement(By.id("input-firstname")).sendKeys("Yashwant");
 		driver.findElement(By.id("input-lastname")).sendKeys("Saini");
-		driver.findElement(By.id("input-email")).sendKeys(TC_RF_001.generateEmailWithTimestamp());
+		driver.findElement(By.id("input-email")).sendKeys(CommonUtils.generateEmailWithTimestamp());
 		driver.findElement(By.id("input-telephone")).sendKeys("ABCD");// Invalid Phone No.
 		driver.findElement(By.id("input-password")).sendKeys("Yashwant123");
 		driver.findElement(By.id("input-confirm")).sendKeys("Yashwant123");

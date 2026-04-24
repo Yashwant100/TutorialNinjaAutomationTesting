@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T18:04:39 IST" name="Default suite" finished-at="2026-04-19T18:05:00 IST" duration-ms="21073">
+  <suite started-at="2026-04-24T14:48:04 IST" name="Default suite" finished-at="2026-04-24T14:48:08 IST" duration-ms="3793">
     <groups>
     </groups>
-    <test started-at="2026-04-19T18:04:39 IST" name="Default test" finished-at="2026-04-19T18:05:00 IST" duration-ms="21073">
-      <class name="tutorialninja.register.TC_RF_011">
-        <test-method signature="verifyRegisteringAccountUsingKeyboardKeys()[pri:0, instance:tutorialninja.register.TC_RF_011@71d44a3]" started-at="2026-04-19T18:04:39 IST" name="verifyRegisteringAccountUsingKeyboardKeys" finished-at="2026-04-19T18:05:00 IST" duration-ms="21021" status="PASS">
+    <test started-at="2026-04-24T14:48:04 IST" name="Default test" finished-at="2026-04-24T14:48:08 IST" duration-ms="3793">
+      <class name="tutorialninja.register.TC_RF_012">
+        <test-method signature="verifyingElementPlaceholder()[pri:0, instance:tutorialninja.register.TC_RF_012@639c2c1d]" started-at="2026-04-24T14:48:04 IST" name="verifyingElementPlaceholder" finished-at="2026-04-24T14:48:07 IST" duration-ms="3529" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountUsingKeyboardKeys -->
-      </class> <!-- tutorialninja.register.TC_RF_011 -->
+        </test-method> <!-- verifyingElementPlaceholder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialninja.register.TC_RF_012@639c2c1d]" started-at="2026-04-24T14:48:07 IST" name="tearDown" finished-at="2026-04-24T14:48:08 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialninja.register.TC_RF_012 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

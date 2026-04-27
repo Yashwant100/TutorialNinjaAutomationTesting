@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorialninja.register.TC_RF_014">
+      <class name="tutorialninja.register.TC_RF_Database_Testing">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyPasswordComplexityStandards" invocation-numbers="0 1 2 3 4"/>
+          <include name="verifyTestingDataRegisteringAccount"/>
         </methods>
-      </class> <!-- tutorialninja.register.TC_RF_014 -->
+      </class> <!-- tutorialninja.register.TC_RF_Database_Testing -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

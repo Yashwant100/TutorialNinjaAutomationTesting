@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-27T19:06:18 IST" name="Default suite" finished-at="2026-04-27T19:06:22 IST" duration-ms="3429">
+  <suite started-at="2026-05-05T15:32:52 IST" name="Default suite" finished-at="2026-05-05T15:32:56 IST" duration-ms="4040">
     <groups>
     </groups>
-    <test started-at="2026-04-27T19:06:18 IST" name="Default test" finished-at="2026-04-27T19:06:22 IST" duration-ms="3429">
-      <class name="tutorialninja.register.TC_RF_Database_Testing">
-        <test-method signature="verifyTestingDataRegisteringAccount()[pri:0, instance:tutorialninja.register.TC_RF_Database_Testing@59474f18]" started-at="2026-04-27T19:06:18 IST" name="verifyTestingDataRegisteringAccount" finished-at="2026-04-27T19:06:22 IST" duration-ms="3382" status="PASS">
+    <test started-at="2026-05-05T15:32:52 IST" name="Default test" finished-at="2026-05-05T15:32:56 IST" duration-ms="4040">
+      <class name="tutorialninja.register.TC_RF_015">
+        <test-method signature="verifyRegisteringAccountFields()[pri:0, instance:tutorialninja.register.TC_RF_015@74235045]" started-at="2026-05-05T15:32:52 IST" name="verifyRegisteringAccountFields" finished-at="2026-05-05T15:32:55 IST" duration-ms="3736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTestingDataRegisteringAccount -->
-      </class> <!-- tutorialninja.register.TC_RF_Database_Testing -->
+        </test-method> <!-- verifyRegisteringAccountFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tutorialninja.register.TC_RF_015@74235045]" started-at="2026-05-05T15:32:55 IST" name="tearDown" finished-at="2026-05-05T15:32:56 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tutorialninja.register.TC_RF_015 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
